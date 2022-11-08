@@ -1,0 +1,7 @@
+DOMAIN-SUFFIX,api.bethesda.net
+DOMAIN-SUFFIX,eu-west-1-prod-prodpc01-reg-httpping.p76prod.systems
+DOMAIN-SUFFIX,us-east-1-prod-prodpc01-reg-bps-gatewayreg.p76prod.systems
+DOMAIN-SUFFIX,us-east-2-prod-prodpc01-glb-bps-gateway.p76prod.systems
+IP-CIDR,54.66.254.151/24,no-resolve
+DOMAIN-KEYWORD,bethesda
+DOMAIN-KEYWORD,p76prod.systems
