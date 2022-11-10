@@ -1,4 +1,5 @@
 rules:
+ - PROCESS-NAME,Project76_GamePass.exe,游戏节点
  - PROCESS-NAME,Fallout76.exe,游戏节点
  - PROCESS-NAME,WinStore.App.exe,Microsoft
  - PROCESS-NAME,svchost.exe,Microsoft
