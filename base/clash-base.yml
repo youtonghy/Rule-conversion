@@ -1,2 +1,8 @@
 rules:
  - PROCESS-NAME,Fallout76.exe,游戏节点
+ - PROCESS-NAME,WinStore.App.exe,Microsoft
+ - PROCESS-NAME,svchost.exe,Microsoft
+ - PROCESS-NAME,XboxPcApp.exe,Microsoft
+ - PROCESS-NAME,GameBar.exe,Microsoft
+ - PROCESS-NAME,Telegram.exe,Telegram
+ - PROCESS-NAME,Speedtest.exe,测速
