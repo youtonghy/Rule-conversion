@@ -1,5 +1,5 @@
-name:MITM证书解密
-desc:MITM证书解密
+name: MITM证书解密
+desc: MITM证书解密
 
 http:
   url-rewrite:
