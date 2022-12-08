@@ -1,5 +1,5 @@
 rules:
- - SCRIPT,udp,udp
+ - SCRIPT,udp,游戏节点
  - SCRIPT,quic,REJECT
  - PROCESS-NAME,WinStore.App.exe,Microsoft
  - PROCESS-NAME,svchost.exe,Microsoft
