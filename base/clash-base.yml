@@ -1,4 +1,6 @@
 rules:
+ - SCRIPT,udp,udp
+ - SCRIPT,quic,REJECT
  - PROCESS-NAME,WinStore.App.exe,Microsoft
  - PROCESS-NAME,svchost.exe,Microsoft
  - PROCESS-NAME,XboxPcApp.exe,Microsoft
@@ -11,7 +13,3 @@ script:
   shortcuts:
     quic: network == 'udp' and dst_port == 443
     udp: network == 'udp'
-
-rules:
-  - SCRIPT,udp,udp
-  - SCRIPT,quic,REJECT
