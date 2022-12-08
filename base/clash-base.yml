@@ -1,7 +1,4 @@
-
 rules:
- - PROCESS-NAME,Project76_GamePass.exe,游戏节点
- - PROCESS-NAME,Fallout76.exe,游戏节点
  - PROCESS-NAME,WinStore.App.exe,Microsoft
  - PROCESS-NAME,svchost.exe,Microsoft
  - PROCESS-NAME,XboxPcApp.exe,Microsoft
@@ -9,3 +6,12 @@ rules:
  - PROCESS-NAME,gamingservices.exe,Microsoft
  - PROCESS-NAME,Telegram.exe,Telegram
  - PROCESS-NAME,Speedtest.exe,测速
+ 
+ script:
+  shortcuts:
+    quic: network == 'udp' and dst_port == 443
+    udp: network == 'udp'
+    
+rules:
+  - SCRIPT,udp,udp
+  - SCRIPT,quic,REJECT
