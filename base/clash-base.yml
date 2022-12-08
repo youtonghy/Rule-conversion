@@ -6,12 +6,12 @@ rules:
  - PROCESS-NAME,gamingservices.exe,Microsoft
  - PROCESS-NAME,Telegram.exe,Telegram
  - PROCESS-NAME,Speedtest.exe,测速
- 
- script:
+
+script:
   shortcuts:
     quic: network == 'udp' and dst_port == 443
     udp: network == 'udp'
-    
+
 rules:
   - SCRIPT,udp,udp
   - SCRIPT,quic,REJECT
