@@ -1,6 +1,4 @@
 #个人自行添加的直连规则域名
-DOMAIN,local.adguard.org
-DOMAIN,injections.adguard.org
 DOMAIN-SUFFIX,youtonghy.com
 IP-CIDR,188.166.224.45/24,no-resolve
 IP-CIDR,103.136.144.109/24,no-resolve
