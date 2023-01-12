@@ -13,3 +13,7 @@ script:
   shortcuts:
     quic: network == 'udp' and dst_port == 443
     udp: network == 'udp'
+    
+    
+hosts:                            
+   'local.adguard.org': 127.0.0.1
