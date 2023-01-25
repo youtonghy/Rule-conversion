@@ -1,3 +1,10 @@
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
 rules:
  - SCRIPT,udp,游戏节点
  - SCRIPT,quic,REJECT
