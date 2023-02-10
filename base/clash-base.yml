@@ -15,6 +15,7 @@ rules:
  - PROCESS-NAME,gamingservices.exe,Microsoft
  - PROCESS-NAME,Telegram.exe,Telegram
  - PROCESS-NAME,Speedtest.exe,测速
+ - PROCESS-NAME,Termius.exe,DIRECT
 
 script:
   shortcuts:
