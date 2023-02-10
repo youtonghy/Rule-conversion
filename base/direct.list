@@ -1,6 +1,5 @@
 #个人自行添加的直连规则域名
 DOMAIN-SUFFIX,ythyx.co
-DOMAIN-SUFFIX,youtonghy.com
 DOMAIN-SUFFIX,emby.youtonghy.com
 IP-CIDR,185.218.6.133/24,no-resolve
 IP-CIDR,103.136.144.109/24,no-resolve
