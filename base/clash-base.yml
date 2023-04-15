@@ -6,6 +6,7 @@ dns:
     - https://dns.alidns.com/dns-query
 
 rules:
+ - DOMAIN-KEYWORD,emby,海外流媒体
  - SCRIPT,udp,游戏节点
  - SCRIPT,quic,REJECT
  - PROCESS-NAME,WinStore.App.exe,Microsoft
@@ -21,6 +22,3 @@ script:
   shortcuts:
     quic: network == 'udp' and dst_port == 443
     udp: network == 'udp'
-        
-hosts:                            
-   'local.adguard.org': 127.0.0.1
