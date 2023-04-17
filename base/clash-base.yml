@@ -17,6 +17,7 @@ rules:
  - PROCESS-NAME,Telegram.exe,Telegram
  - PROCESS-NAME,Speedtest.exe,测速
  - PROCESS-NAME,Termius.exe,DIRECT
+ - PROCESS-NAME,qbittorrent.exe,DIRECT
 
 script:
   shortcuts:
