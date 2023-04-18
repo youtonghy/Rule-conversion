@@ -18,6 +18,9 @@ rules:
  - PROCESS-NAME,Speedtest.exe,测速
  - PROCESS-NAME,Termius.exe,DIRECT
  - PROCESS-NAME,qbittorrent.exe,DIRECT
+ - PROCESS-NAME,BitComet.exe,DIRECT
+ - PROCESS-NAME,Motrix.exe,DIRECT
+ - PROCESS-NAME,aria2c.exe,DIRECT
 
 script:
   shortcuts:
