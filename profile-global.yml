@@ -1,0 +1,5 @@
+[custom]
+custom_proxy_group=代理节点`select`[]DIRECT
+custom_proxy_group=M&A`[]DIRECT`select`[]代理节点
+custom_proxy_group=流媒体`[]DIRECT`select`[]代理节点
+custom_proxy_group=Telegram`[]代理节点`select`[]DIRECT
