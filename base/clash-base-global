@@ -1,0 +1,20 @@
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+
+rules:
+ - PROCESS-NAME,WinStore.App.exe,M&A
+ - PROCESS-NAME,svchost.exe,M&A
+ - PROCESS-NAME,XboxPcApp.exe,M&A
+ - PROCESS-NAME,GameBar.exe,M&A
+ - PROCESS-NAME,gamingservices.exe,M&A
+ - PROCESS-NAME,Telegram.exe,Telegram
+ - PROCESS-NAME,Termius.exe,DIRECT
+ - PROCESS-NAME,Adguard.exe,DIRECT
+ - PROCESS-NAME,qbittorrent.exe,DIRECT
+ - PROCESS-NAME,BitComet.exe,DIRECT
+ - PROCESS-NAME,Motrix.exe,DIRECT
+ - PROCESS-NAME,aria2c.exe,DIRECT
